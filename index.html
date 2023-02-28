@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Strict</title>
+    <style>
+        h1, h2, h3, h4, h5, h6, p, span, strong, a, button, label{
+            font-family: sans-serif;
+        }
+
+        h1, h2, h3, h4, h5, h6{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-size: 20px;
+            margin: 20px;
+            color: #2d3950;
+        }
+
+        .bg-1{
+            background-color: #f6f9f9;
+        }
+
+        .cont{
+            width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .c1{
+            color: #2d3950;
+        }
+
+        .c2{
+            color: #999999;
+        }
+
+        .caja-servicio{
+            width: 33.33333%;
+            text-align: center;
+            padding: 0 15px;
+        }
+
+        .caja-servicio{
+            margin-bottom: 15px;
+        }
+
+        .caja-servicio h5{
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .pd-90{
+            padding: 90px 0;
+        }
+
+        .caja-galeria {
+            width: 33.33333%;
+            padding: 15px;
+            margin: 0 auto;
+        }
+        .caja-galeria img {
+            width: 100%;
+            display: block;
+        }
+        .fila{
+            display: flex;
+        }
+
+        .form-input {
+            width: 600px;
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: transparent;
+            border: 1px solid #9999;
+            border-radius: 5px;
+        }
+
+        .form-input:-moz-placeholder,
+        .form-input::-moz-placeholder,
+        .form-input:-moz-placeholder{
+            color: #ddd9d999;
+            font-size: 15px;
+        }
+
+        .btn button{
+            border: 1px solid #15a5fa; 
+            background: transparent; 
+            padding: 18px 60px; 
+            font-size: 20px; 
+            color: white; 
+            border-radius: 5px; 
+            margin-bottom: 45px;
+        }
+        
+        #subs {
+            height: 19px;
+            width: 36px;
+        }
+
+        .redes-sociales a {
+            width: 30px;
+            height: 30px;
+            background-color: #15a4fa;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .redes-sociales a i {
+            color: white;
+        }
+        @media screen and (max-width: 800px){
+            .cont{
+                width: 100%;
+            }
+
+            
+            .header{
+                width: 100%;
+            }
+     }
+
+    </style>
+</head>
+<body style="margin: 0; padding: 0;">
+
+    <div class="bg-1">
+        <div class="cont" style="padding: 20px 0;">
+            <img style="display: block;" src="assets/img/logo-strict.png" alt="">
+        </div>
+    </div>
+
+    <header class="header" style="background: url(assets/img/bg-header.jpg); height:600px; display: flex;  justify-content: center;
+    align-items: center; background-size: cover;">
+
+        <div class="info_header" style="width: 640px; text-align: center;">
+
+            <h2 style="color: white; font-size: 115px;">STRICT</h2>
+            <hr style="border-color: #15a5fa; margin-bottom: 25px;">
+            <p style="color:white; font-size: 20px; margin-bottom: 40px;">STRICT is responsive theme with a a clean and minimal look.</p>
+
+            <div class="btn">
+                <button>Call to action</button>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="bg-1" id="simple">
+
+            <div class="cont" style="padding: 100px 0;">
+                <h3 class="c1" style="font-size: 30px;">Simple & pure design.</h3>
+                <p class="c2" style="font-size: 18.5px; line-height: 30px;">
+                    Designers everywhere gush with admiration upon seeing a web design and exclaim "its beautiful, it's so clean!". There are a countless number of web design round-up dedicated to 'clean' design and it is a term thrown quite a bit in the wed design community. It can be easy to spot a good example of clean design
+                </p>
+            </div>
+            
+    </section>
+
+    <section id="servicios">
+
+        <div class="cont" style="display: flex; padding: 90px 0;">
+            <div class="caja-servicio">
+
+                <img src="assets/img/icon-movil.jpg" alt="">
+                <h5 class="c1">Optimized for all devices</h5>
+                <span class="c2">STRICT has been designed to be fully responsive on all devices.</span>
+            </div>
+    
+            <div class="caja-servicio">
+                <img src="assets/img/icon-enviar.jpg" alt="">
+                <h5 class="c1">This & Minimal Design</h5>
+                <span class="c2">This multipurpose theme is especially created to be used for different projects.</span>
+            </div>
+    
+            <div class="caja-servicio">
+                <img src="assets/img/icon-voz.jpg" alt="">
+                <h5 class="c1">Font Awesome Icon</h5>
+                <span class="c2">This multipurpose theme is especially created to be used for different projects.</span>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section id="showcase" class="bg-1 pd-90" style="text-align: center;">
+
+        <div class="cont">
+
+            <div class="encabezado" style="margin-bottom: 55px;">
+                <h2 class="c1" style="font-size: 40px;">Showcase your work like a pro.</h2>
+                <span class="c2"> Contact me if you like my work</span>
+            </div>
+        
+            <div class="galeria">
+    
+                <div class="fila">
+                    <div class="caja-galeria">
+                        <img src="assets/img/show-1.jpg" alt="">
+                    </div>
+                    <div class="caja-galeria">
+                        <img src="assets/img/show-2.jpg" alt="">
+                    </div>
+                    <div class="caja-galeria">
+                        <img src="assets/img/show-3.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="fila">
+                    <div class="caja-galeria">
+                        <img src="assets/img/show-4.jpg" alt="">
+                    </div>
+                    <div class="caja-galeria">
+                        <img src="assets/img/show-5.jpg" alt="">
+                    </div>
+                    <div class="caja-galeria">
+                        <img src="assets/img/show-6.jpg" alt="">
+                    </div>
+                </div>
+    
+            </div>
+
+        </div>
+    </section>
+
+            <section id="stay" style="background: url(assets/img/bg-stay.jpg)"; class="pd-90">
+
+                <div class="cont">
+
+                    <div class="encabezado" style="text-align: center; margin-bottom: 20px;">
+                        <h2 class="c1" style="font-size: 45px; color: white;">Stay with us</h2>
+                        <span class="c2" style="color: #999999">we ensure quality & support</span>
+                    </div>
+                    <form action="" id="contacto">
+
+                        <input class="form-input" type="text" placeholder="Full Name">
+                        <input class="form-input" type="email" placeholder="Email Address">
+                        <textarea class="form-input" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+    
+                        <div style="display: flex; width: 78%; margin-left: 59px;">
+                            <div class="check" style="width: 70%; margin: 20px; padding-left: 6px;">
+                                <input id="subs" type="checkbox">
+                                <label for="subs" style="font-size: 20px; color: #999; text-align: center;"> Subscribe Newsletter</label>
+                            </div>
+    
+                            <div class="btn" style="width: 30%;">
+                                <button type="button">Send</button>
+                            </div>
+                        </div>
+    
+                    </form>
+    
+                </div>
+            </section>
+
+            <footer class="bg-1" style="padding: 30px 0;">
+
+                <div class="cont" style="display: flex; align-items: center;" >
+                    <span style="width: 153%; text-align: left; padding: 19px; color: #999;">Copyright 2019 STRICT</span>
+        
+                <div class="redes-sociales" style ="display:block !important; width: 40%; text-align: left;">
+
+                    <a href="https://es-es.facebook.com/" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://twitter.com/?lang=es" target="_self">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a href="https://plus.google.com" target="_top">
+                        <i class="fa-brands fa-google-plus-g"></i>
+                    </a>
+
+                    <a href="https://es.linkedin.com/" target="_parent">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                </div>
+                </div>
+            </footer>
+
+</body>
+</html>
